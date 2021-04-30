@@ -1,0 +1,28 @@
+{
+    "extends": "google",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "parser": "babel-eslint",
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        "arrow-parens": "off",
+        "brace-style": ["error", "1tbs"],
+        "comma-dangle": "off",
+        "linebreak-style": "off",
+        "max-len": ["warn", 300],
+        "new-cap": "warn",
+        "guard-for-in": "warn",
+        "valid-jsdoc": "warn",
+        "no-invalid-this": "off",
+        "quotes": "off",
+        "require-jsdoc": "off",
+        "strict": 0
+    }
+}
