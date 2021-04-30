@@ -4,7 +4,9 @@
   "description": "Automated Software testing with WebdriverIO",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "selenium-server": "./node_modules/.bin/selenium-standalone start",
+    "chromedriver": "chromedriver --port=4444"
   },
   "keywords": [
     "Automation",

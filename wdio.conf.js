@@ -27,7 +27,7 @@ exports.config = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
-    specs: ["./web-tests/e2e-login.js"],
+    specs: ["./web-tests/**.js"],
     // Patterns to exclude.
     exclude: [
         './web-tests/example.js', './web-tests/actions.js'
